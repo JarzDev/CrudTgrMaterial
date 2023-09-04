@@ -1,0 +1,18 @@
+
+  
+  <p>
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon" [matMenuTriggerFor]="acciones" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu #acciones="matMenu">
+        <button mat-button  (click)="singup()" >Registrate</button>
+        <button mat-button  (click)="singin()">Inicia Sesion</button>
+      </mat-menu>
+      <span>Tgr</span>
+      <span class="example-spacer"></span>
+     
+    </mat-toolbar>
+  </p>
+  
+ 
